@@ -8,6 +8,7 @@ function sendToStream(stream, sections, deferred) {
   //stream.write(format(this.header, , this.currentDate()));
 
   this.printHeader(stream, this.options, this.currentDate());
+  this.printSection(stream, 'Releases', sections.release, false);
   this.printSection(stream, 'Bug Fixes', sections.fix);
   this.printSection(stream, 'Features', sections.feat);
   this.printSection(stream, 'Refactor', sections.refactor, false);
@@ -28,6 +29,7 @@ function writeChangelog(stream, commits) {
   debug('writing change log');
   var deferred = q.defer();
   var sections = {
+    release: {},
     fix: {},
     feat: {},
     breaks: {},

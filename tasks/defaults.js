@@ -13,6 +13,10 @@ module.exports = {
   debug: false,
   sections: [
     {
+      title: 'Releases',
+      grep: '^release'
+    },
+    {
       title: 'Bug Fixes',
       grep: '^fix'
     },

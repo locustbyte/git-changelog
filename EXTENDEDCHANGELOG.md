@@ -10,6 +10,12 @@ _Git changelog is a utility tool for generating changelogs. It is free and opens
 
 ---
 
+## Releases
+
+- test release again
+- test release
+
+
 ## Bug Fixes
 
 - correctly detect when running under grunt on Windows
