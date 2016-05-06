@@ -3,7 +3,7 @@
  * https://github.com/rafinskipg/git-changelog
  *
  * Copyright (c) 2013 rafinskipg
- * Licensed under the MIT license
+ * Licensed under the MIT license.
  */
 
 'use strict';
