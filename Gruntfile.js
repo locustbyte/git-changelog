@@ -3,7 +3,7 @@
  * https://github.com/rafinskipg/git-changelog
  *
  * Copyright (c) 2013 rafinskipg
- * Licensed under the MIT license.
+ * Licensed under the MIT license
  */
 
 'use strict';
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
           file: 'output/tag1.md',
           logo : 'https://github.com/rafinskipg/git-changelog/raw/master/images/git-changelog-logo.png',
           version : 'squeezy potatoe',
-          tag: 'v0.0.1',
+          tag: 'v2.0.0',
           debug: true
         }
       },
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
           tag: false,
           debug: true,
           file : 'EXTENDEDCHANGELOG.md',
-          grep_commits: '^fix|^feat|^docs|^refactor|^chore|BREAKING'
+          grep_commits: '^fix|^feat|^docs|^refactor|^chore|^release|BREAKING'
         }
       }
     },
