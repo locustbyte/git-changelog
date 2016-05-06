@@ -4,17 +4,12 @@ __Git changelog__
 
 _Git changelog is a utility tool for generating changelogs. It is free and opensource. :)_
 
-#   (2015-06-05)
+#   (2016-05-06)
 
 
 
 ---
 
-## Documentation
-
-- **README:** added more commit examples and npm versioning usage
-
-
 
 ---
-<sub><sup>*Generated with [git-changelog](https://github.com/rafinskipg/git-changelog). If you have any problem or suggestion, create an issue.* :) **Thanks** </sub></sup>
+<sub><sup>*Generated with [git-changelog](https://github.com/rafinskipg/git-changelog). If you have any problems or suggestions, create an issue.* :) **Thanks** </sub></sup>

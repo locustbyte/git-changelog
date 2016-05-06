@@ -4,7 +4,7 @@ __Git changelog extended__
 
 _Git changelog is a utility tool for generating changelogs. It is free and opensource. :)_
 
-#   (2015-06-05)
+#   (2016-05-06)
 
 
 
@@ -12,6 +12,8 @@ _Git changelog is a utility tool for generating changelogs. It is free and opens
 
 ## Bug Fixes
 
+- correctly detect when running under grunt on Windows
+  ([4205ea49](https://github.com/rafinskipg/git-changelog/commit/4205ea49a893e4d1807a39268739c13754d40cf2))
 - Stream didn't close properly
   ([99f228cf](https://github.com/rafinskipg/git-changelog/commit/99f228cfa5cb26c46ef9e3b00171a5e3d38fd844))
 - Github commit url
@@ -61,12 +63,14 @@ _Git changelog is a utility tool for generating changelogs. It is free and opens
 - **docs:**
   - Angular document commits
   - Added docs
+- **generate:** replace `#getStream` with `fse#createOutputStream`
 - **lib:** simplify methods and refactor into separate files
 - **writeChangelog:** method now returns a promise
 
 
 ## Chore
 
+- typos and grammar
 - a couple of spelling corrections [ci skip]
 - minor edits to README
 - fixing lint errors
@@ -96,6 +100,10 @@ _Git changelog is a utility tool for generating changelogs. It is free and opens
 - added node.js `0.12` to travis-ci config
 - Updated readme
 - package json version 1.1.3
+- **cleanup:**
+  - remove unnecessary code [skip ci]
+  - remove `#getStream` and `#checkPath`
+- **deps:** install fs-extra@0.18.4
 - **images:**
   - add logo in JPEG format
   - add logo in PNG format
@@ -123,4 +131,4 @@ _Git changelog is a utility tool for generating changelogs. It is free and opens
 
 
 ---
-<sub><sup>*Generated with [git-changelog](https://github.com/rafinskipg/git-changelog). If you have any problem or suggestion, create an issue.* :) **Thanks** </sub></sup>
+<sub><sup>*Generated with [git-changelog](https://github.com/rafinskipg/git-changelog). If you have any problems or suggestions, create an issue.* :) **Thanks** </sub></sup>
