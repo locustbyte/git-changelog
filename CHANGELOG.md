@@ -4,7 +4,7 @@ __Git changelog__
 
 _Git changelog is a utility tool for generating changelogs. It is free and opensource. :)_
 
-#   (2016-05-06)
+#   (2016-05-07)
 
 
 

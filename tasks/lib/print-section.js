@@ -17,15 +17,15 @@ function printCommit(stream, printCommitLinks, prefix, commit) {
 }
 
 function printComponent(stream, section, printCommitLinks, name) {
-  var prefix = '-';
+  var prefix = '\n-';
   var nested = section[name].length > 1;
 
   if (name !== this.emptyComponent) {
     if (nested) {
-      stream.write(format('- **%s:**\n', name));
+      stream.write(format('\n- ** %s: **\n', name));
       prefix = '  -';
     } else {
-      prefix = format('- **%s:**', name);
+      prefix = format('- ** %s: **', name);
     }
   }
 
