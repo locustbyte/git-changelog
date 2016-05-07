@@ -169,6 +169,7 @@ _Git changelog is a utility tool for generating changelogs. It is free and opens
 - ** package.json: ** Added preversion script
 
 - ** release: **
+  - v2.0.2 codename(tango)
   - v2.0.0 codename(jaracimrman-existence)
   - 0.1.8 codename(furious-stallman)
 - ** task: ** cleanup unused requires
